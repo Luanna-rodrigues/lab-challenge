@@ -1,0 +1,51 @@
+.user-list-repo {
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 5px;
+      display: -webkit-box;
+      padding: 16px;
+
+      @media screen and (max-width:768px) {
+        margin-bottom: 25px;
+        display: block;
+        padding: 10px;
+      }
+
+      img {
+        max-width: 100px;
+        margin-top: 16px;
+      }
+      
+      h1 {
+        font-size: 20px;
+      }
+
+      .description-bio {
+        font-size: 14px;
+        color: #666;
+      }
+
+      p {
+        margin-bottom: 5px;
+
+        .selected {
+          color: red;
+        }
+
+        svg, img {
+          margin-right: 10px;
+          cursor: pointer;
+        }
+
+        span {
+          margin-right: 25px;
+        }
+      }
+
+      border-bottom: 1px solid #c0c0c0;
+    }
+  }
+}
